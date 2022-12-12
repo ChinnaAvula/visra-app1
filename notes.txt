@@ -1,0 +1,13 @@
+Express.js GET Request:
+=======================
+
+GET and POST both are two common HTTP requests used for building REST API's. GET requests are used to send only limited amount of data because data is sent into header while POST requests are used to send large amount of data because data is sent in the body.
+
+Express.js facilitates you to handle GET and POST requests using the instance of express.
+
+Express.js GET Method Example 1:
+================================
+Fetch data in JSON format:
+
+Get method facilitates you to send only limited amount of data because data is sent in the header. It is not secure because data is visible in URL bar.
+
